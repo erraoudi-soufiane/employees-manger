@@ -1,5 +1,6 @@
 package com.soufiane.employeemanager.service;
 
+import com.soufiane.employeemanager.exception.UserNotFoundException;
 import com.soufiane.employeemanager.model.Employee;
 import com.soufiane.employeemanager.repo.EmployeeRepo;
 import org.springframework.beans.factory.annotation.Autowired;
